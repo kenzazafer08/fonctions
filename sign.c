@@ -27,9 +27,9 @@ int main(){
 			printf("\n Vous avez entré un opérateur non valide ");				    			
 	}
     if(positive(result)==1){
-       printf("\n The result of %.2f %c %.2f  est positive", num1, Op, num2);
+       printf("\n Le resultat de  %.2f %c %.2f  est positive", num1, Op, num2);
     }else if(negative(result)==1){
-        printf("\n The result of %.2f %c %.2f  est negative", num1, Op, num2);
-    }else printf("\n The result of %.2f %c %.2f  est null", num1, Op, num2);
+        printf("\n Le resultat de %.2f %c %.2f  est negative", num1, Op, num2);
+    }else printf("\n Le resultat de %.2f %c %.2f  est null", num1, Op, num2);
     return 0;
 }
