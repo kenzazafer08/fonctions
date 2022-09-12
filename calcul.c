@@ -1,24 +1,5 @@
 #include <stdio.h>
-float addition(float num1,float num2){
-    float result;
-    result = num1 + num2;
-    return result;
-}
-float soustraction(float num1,float num2){
-    float result;
-    result = num1 - num2;
-    return result;
-}
-float multiplication(float num1,float num2){
-    float result;
-    result = num1 * num2;
-    return result;
-}
-float division(float num1,float num2){
-    float result;
-    result = num1 / num2;
-    return result;
-}
+#include "functions.h"
 
 int main(){
     char Op;
