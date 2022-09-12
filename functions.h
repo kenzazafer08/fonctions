@@ -72,3 +72,4 @@ void triangle(int ligne,int num){
         printf("\n");
     }
 }
+
