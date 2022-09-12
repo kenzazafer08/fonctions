@@ -47,12 +47,18 @@ int positive(int num){
 int negative(int num){
     if (num<0){return 1;}
 }
-void triangle(int ligne){
+void espace(int i){
+    int j;
+    for(j=0;j<=i;j++){
+        printf("  ");
+    }
+}
+void triangle(int ligne,int num){
     int i, j=0, s;
-  
-  
+    
     for(i=1; i<=ligne; ++i, j=0)
     {
+        espace(num);
         for(s=1; s<=ligne-i; ++s)
         {
             printf("  ");
@@ -63,11 +69,5 @@ void triangle(int ligne){
             ++j;
         }
         printf("\n");
-    }
-}
-void espace(int i){
-    int j;
-    for(j=0;j<i;j++){
-        printf(" ");
     }
 }
