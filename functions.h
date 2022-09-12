@@ -73,3 +73,59 @@ void triangle(int ligne,int num){
     }
 }
 
+void saisie(int *tab, int nb)
+{
+	int i;
+	printf("\n");
+	for (i=0; i<nb; i++)
+	{
+		printf ("Valeur de tab[%d] = ", i);
+		scanf ("%d", &tab[i]);
+	}
+	return;
+}
+void affichage(int *tab, int nb)
+{
+	int i;
+	printf("\n");
+	for (i=0; i<nb; i++)
+	{
+		printf ("Valeur de tab[%d] = %d\n", i,tab[i]);
+	}
+	return;
+}
+void max(int *tab, int nb)
+{
+	int i,max=tab[0];
+	for (i=0; i<nb; i++)
+	{
+        if(tab[i]>max){
+            max=tab[i];
+        }
+	}printf ("Le maximum dans ce tableau est : %d\n", max);
+	return;
+}
+void min(int *tab, int nb)
+{
+	int i,min=tab[0];
+	for (i=0; i<nb; i++)
+	{
+        if(tab[i]<min){
+            min=tab[i];
+        }
+	}printf ("Le minimum dans ce tableau est : %d\n", min);
+	return;
+}
+void tri(int *tab, int nb)
+{
+	int i,tmp;
+	for (i=0; i<nb; i++)
+	{
+        if(tab[i+1]<tab[i]){
+           tmp=tab[i];
+           tab[i]=tab[i+1];
+           tab[i+1]=tmp;
+        }
+	}
+	return;
+}
