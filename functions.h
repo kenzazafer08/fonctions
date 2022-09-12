@@ -55,7 +55,7 @@ void espace(int i){
 }
 void triangle(int ligne,int num){
     int i, j=0, s;
-    
+
     for(i=1; i<=ligne; ++i, j=0)
     {
         espace(num);
