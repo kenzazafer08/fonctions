@@ -65,3 +65,9 @@ void triangle(int ligne){
         printf("\n");
     }
 }
+void espace(int i){
+    int j;
+    for(j=0;j<i;j++){
+        printf(" ");
+    }
+}
