@@ -11,7 +11,6 @@ void main(){
         scanf("%d",&tableau[i]);
     }
        do{
-    
        printf("Afficher votre tableau : 1\n");
        printf("Chercher un element dans votre tableau : 4\n");
        printf("Triee votre tableau : 5\n");
