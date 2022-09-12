@@ -41,13 +41,11 @@ float division(float num1,float num2){
     result = num1 / num2;
     return result;
 }
-bool positive(int num){
-    if (num>0)
-    return true;
+int positive(int num){
+    if (num>0){return 1;}
 }
-bool negative(int num){
-    if (num<0)
-    return true;
+int negative(int num){
+    if (num<0){return 1;}
 }
 void triangle(int ligne){
     int i, j=0, s;
