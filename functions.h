@@ -67,6 +67,7 @@ void triangle(int ligne,int num){
         {
             printf("* ");
             ++j;
+           
         }
         printf("\n");
     }

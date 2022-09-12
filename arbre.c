@@ -5,7 +5,6 @@ void main(){
     printf("Entrer la taille de votre arbre : ");
     scanf("%d",&num);
     for(i=0;i<3;i++){
-      triangle(num+i+2,num-i); 
-      
+      triangle(num+i,num-i); 
     }
 }
