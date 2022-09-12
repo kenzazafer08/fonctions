@@ -19,7 +19,7 @@ float division(float num1,float num2){
     result = num1 / num2;
     return result;
 }
-#include <stdio.h>
+
 int main(){
     char Op;
 	float num1, num2, result = 0;
